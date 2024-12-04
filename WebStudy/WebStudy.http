@@ -1,0 +1,28 @@
+﻿@WebStudy_HostAddress = http://localhost:5070
+
+POST {{WebStudy_HostAddress}}/todoitems
+Content-Type: application/json
+
+{
+  "name":"walk cat",
+  "isComplete":true
+}
+
+###
+
+GET {{WebStudy_HostAddress}}/todoitems
+
+###
+
+GET {{WebStudy_HostAddress}}/todoitems/1
+
+###
+
+PUT {{WebStudy_HostAddress}}/todoitems/1
+
+###
+
+DELETE {{WebStudy_HostAddress}}/todoitems/1
+
+###
+
